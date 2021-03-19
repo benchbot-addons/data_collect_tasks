@@ -1,0 +1,16 @@
+name: "data_collect:active:ground_truth"
+description: |
+  Collect all data in active mode.
+type: sim_unreal
+actions:
+  - move_angle
+  - move_distance
+observations:
+  - image_depth
+  - image_depth_info
+  - image_rgb
+  - image_rgb_info
+  - image_segment
+  - image_segment_info
+  - laser
+  - poses
